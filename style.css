@@ -33,7 +33,46 @@
 }
 
 .input-checkbox:checked {
-    background-color: yellowgreen;
     margin: 10px;
+    accent-color: yellowgreen;
 
+}
+.input-checkbox:checked + label {
+    color: yellowgreen;
+}
+.input-text:disabled {
+    color: yellow;
+}
+.input-email:valid {
+    color: green;
+    background-color: lightgreen;
+    border: 1px solid goldenrod ;   
+}
+.input-email:invalid {
+    color: red;
+    background-color: lightcoral;
+    border: 1px solid goldenrod;
+}
+.input-required:required {
+    border: 1px solid red;
+}
+
+.input-email::placeholder {
+ color: red;   
+}
+.texto::first-letter {
+    font-size: 28px; 
+    color: green;
+}
+.texto::first-line{
+    font-size: 30px;
+    color: red;
+}
+.texto::selection {
+    background-color: pink;
+}
+
+.lista-frutas li::marker {
+    color: red;
+    font-size: 40px;
 }
