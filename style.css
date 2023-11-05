@@ -1,0 +1,39 @@
+.redirect-link:active {
+    color: green;
+
+}
+
+.redirect-link:visited{
+    color: brown;
+}
+.input-name:focus {
+    border: 1px solid #eaeaea;
+    background-color: cadetblue;
+    color: white;
+    padding: 10px;
+}
+.paragrafo:hover {
+    background-color: yellowgreen;
+}
+.lista-frutas li:first-child {
+    color: red;
+}
+.lista-frutas li:last-child {
+    color: yellowgreen;
+}
+.lista-frutas li:nth-child(2) {
+    color: blue;
+
+}
+.lista-frutas li:nth-child(4){
+    color: chocolate;
+}
+.lista-frutas li:not(.fruta-proibida) {
+    color: palevioletred;
+}
+
+.input-checkbox:checked {
+    background-color: yellowgreen;
+    margin: 10px;
+
+}
